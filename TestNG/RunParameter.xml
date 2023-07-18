@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" thread-cound="3" name="WebApp">
+
+<!-- neu parallel = test thi chay nhieu testcase cung luc
+neu = class thi chay nhieu class cung luc
+neu = methods: run bao nhieu tc cung 1 luc
+
+-->
+
+	<test name="Run on fireFox">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="parameter.MultipleBrowser" />
+		</classes>
+	</test>
+	
+	<test name="Run on Chrome">
+	<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="parameter.MultipleBrowser" />
+		</classes>
+	</test>
+	
+	<test name="Run on Edge">
+	<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="parameter.MultipleBrowser" />
+		</classes>
+	</test>
+</suite> 

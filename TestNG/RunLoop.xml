@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" thread-cound="3" name="API Level">
+
+
+
+	<test name="Run on fireFox">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="LoopTestcase.LoopMultiple" />
+		</classes>
+	</test>
+	
+</suite> 

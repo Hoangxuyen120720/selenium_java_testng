@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" thread-cound="3" name="WebApp">
+
+
+	
+	
+	<test name="Run with package">
+		<package>
+			<package name="dataDriven" />
+		</package>
+	</test>
+</suite> 

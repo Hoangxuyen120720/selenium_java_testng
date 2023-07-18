@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Run ALl Suite">
+
+
+	<suite-file>
+		<suite-file path="RunLoop.xml" />
+		<suite-file path="RunParameter.xml" />
+	</suite-file>
+
+</suite> 
